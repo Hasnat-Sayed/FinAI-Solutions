@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>FinAI Solutions</title>
+</head>
+<body>
+    <!--nav-->
+    <nav class="flex justify-between items-center px-[60px] py-5 bg-gradient-to-r from-blue-800 to-green-500 text-white">   
+        <h1 class="text-2xl font-bold mr-3"><span><i class="fa-solid fa-circle-dollar-to-slot  text-2xl"></i></span> FinAI</h1>   
+        <div class="hidden md:flex space-x-6">
+            <a href="#clients" class="hover:text-gray-400">Trusted Clients</a>
+            <a href="#what_we_do" class="hover:text-gray-400">What we do</a>
+            <a href="#price" class="hover:text-gray-400">Pricing</a>
+            <a href="#our_team" class="hover:text-gray-400">Our Team</a>
+        </div>
+        <button class="bg-blue-800 px-4 py-2 rounded hover:bg-blue-600">Contact Us</button>
+    </nav>
+
+    <!--banner-->
+    <section class="w-full h-[550px] bg-gradient-to-r from-blue-800 to-green-500 flex items-center justify-between px-10">
+        <div class="text-white max-w-lg ml-11 ">
+            <h1 class="text-5xl font-bold md:text-left">AI-Powered Financial Consulting Service</h1>
+            <p class="mt-4 text-lg ">Transform your financial strategy with AI-powered insights. Unlock the potential to maximize investments, reduce risks, and shape a more secure financial future.</p>
+            <button class="mt-6 px-6 py-3 bg-black hover:bg-gray-800 text-white rounded">Book a Consultation</button>
+        </div>
+        <div>
+            <img src="/images/office.png" alt="" class="h-fit mr-11 hidden md:flex">
+        </div> 
+        </section>
+
+    <!--clients_sec-->
+    <section id="clients" class="py-10 text-center bg-white">
+        <h2 class="text-3xl font-bold mb-10 underline underline-offset-8">Trusted by The Best Clients</h2>
+        <div class="flex justify-center flex-wrap space-x-6 gap-10">
+            <img src="images/google-1-1.svg" alt="Google" class="h-10">
+            <img src="images/logo-amazon.svg" alt="Amazon" class="h-10">
+            <img src="images/meta-3.svg" alt="Meta" class="h-10">
+            <img src="images/samsung-8.svg" alt="Samsung" class="h-10">
+            <img src="images/goldman-sachs-2.svg" alt="Goldman Sachs" class="h-10">
+            <img src="images/apple-11.svg" alt="Apple" class="h-10">
+        </div>
+    </section>
+
+    <!--what_sec-->
+    <section id="what_we_do" class="py-16 bg-gray-100 text-center">
+        <h2 class="text-3xl font-bold mb-6 underline underline-offset-8">What We Do</h2>
+        <p class="max-w-2xl mx-auto text-gray-700">We provide AI-powered financial solutions, including investment insights, risk assessment, and personal wealth management strategies and strategies, designed to optimize financial decision-making and enhance long-term growth.</p>
+        <div class="grid md:grid-cols-3 gap-6 px-10 mt-8">
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-gray-500">
+                <div class="flex justify-center">
+                    <img src="/images/microchip.png" alt="" class="h-20 mb-3">
+                </div>
+                <h3 class="text-2xl font-bold">AI Investment Analysis</h3>
+                <p class="text-gray-600 mt-2">Make efficient data-driven investment decisions with our AI-backed predictions.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-gray-500">
+                <div class="flex justify-center">
+                    <img src="/images/warning.png" alt="" class="h-20 mb-3">
+                </div>
+                <h3 class="text-2xl font-bold">Automated Risk Management</h3>
+                <p class="text-gray-600 mt-2">Identify and mitigate financial risks with the help of our advanced AI models.</p>
+            </div>
+            <div class="bg-white p-6 rounded-lg shadow-lg hover:shadow-gray-500">
+                <div class="flex justify-center">
+                    <img src="/images/management.png" alt="" class="h-20 mb-3">
+                </div>
+                <h3 class="text-2xl font-bold">Wealth Optimization</h3>
+                <p class="text-gray-600 mt-2">Enhance and optimize your financial growth with our AI-powered planning.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <!--price_sec-->
+    <section id="price" class="py-16 bg-blue-900 text-white text-center">
+        <h2 class="text-3xl font-bold mb-8 underline underline-offset-8">Our Pricing Plans</h2>
+        <div class="grid md:grid-cols-3 gap-6 px-10">
+            <div class="bg-white text-black p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold">Basic</h3>
+                <p class="text-lg font-semibold my-4">$2000 / month</p>
+                <p class="text-sm">Financial insights and reports</p>
+                <button class="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded">Contact Us</button>
+            </div>
+            <div class="bg-white text-black p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold">Pro</h3>
+                <p class="text-lg font-semibold my-4">$5000 / month</p>
+                <p class="text-sm">Investment strategy & risk analysis</p>
+                <button class="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded">Contact Us</button>
+            </div>
+            <div class="bg-white text-black p-6 rounded-lg shadow-lg">
+                <h3 class="text-2xl font-bold">Enterprise</h3>
+                <p class="text-lg font-semibold my-4">$15000 / month</p>
+                <p class="text-sm">Custom AI-driven financial solutions</p>
+                <button class="mt-4 px-6 py-2 bg-blue-500 hover:bg-blue-700 text-white rounded">Contact Us</button>
+            </div>
+        </div>
+    </section>
+
+
+    <!--team_sec-->
+    <section id="our_team" class="py-16 text-center">
+        <h2 class="text-3xl font-bold mb-8 underline underline-offset-8">Meet Our Team</h2>
+        <div class="grid md:grid-cols-3 gap-6 px-10">
+            <div class="text-center">
+                <img src="images/Erwin.jpg" alt="Erwin Smith" class=" mx-auto mb-4 w-48 h-48 object-cover rounded">
+                <h3 class="text-xl font-bold mt-4">Erwin Smith</h3>
+                <p class="text-gray-600">Chief AI Strategist</p>
+            </div>
+            <div class="text-center">
+                <img src="images/levi.jpg" alt="Levi Ackerman" class=" mx-auto mb-4 w-48 h-48 object-cover rounded ">
+                <h3 class="text-xl font-bold mt-4">Levi Ackerman</h3>
+                <p class="text-gray-600">Lead Financial Analyst</p>
+            </div>
+            <div class="text-center">
+                <img src="images/eren yeager.jpg" alt="Eren Yeager" class=" mx-auto mb-4 w-48 h-48 object-cover rounded">
+                <h3 class="text-xl font-bold mt-4">Eren Yeager</h3>
+                <p class="text-gray-600">AI Engineer</p>
+            </div>
+        </div>
+    </section>
+
+    <!--footer-->
+    <footer class="bg-gray-900 text-white py-6 text-center">
+        <p>&copy; 2025 FinAI Solutions. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
